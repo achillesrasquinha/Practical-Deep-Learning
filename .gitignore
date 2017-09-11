@@ -1,0 +1,10 @@
+Videos
+
+# virtual environments
+.venv
+
+# checkpoints
+.ipynb_checkpoints
+
+# cache
+.DS_Store

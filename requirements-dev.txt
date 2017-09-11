@@ -1,0 +1,16 @@
+jupyter
+numpy
+scipy
+matplotlib
+pandas
+scikit-learn
+tensorflow
+keras
+jupyter
+numpy
+scipy
+matplotlib
+pandas
+scikit-learn
+tensorflow
+keras
