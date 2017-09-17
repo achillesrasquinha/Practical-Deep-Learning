@@ -57,3 +57,12 @@ array([[ 0.],
 <p align="justify">
     Pretty much every Deep Learning pipeline will have the above phases. What is interesting is that Python (in this case, keras) creates for you the network and the math revolving around it, performs memory management, CPU and GPU utilization and a lot more <b>in 10 lines or less!</b> Much more complex deep learning architectures can be built too in maybe <b>a 100 lines or less</b>.
 </p>
+
+##### Slow, yet Fast
+Python is slow, yet fast. Okay, let me explain.
+
+Here's a Python implementation of generating the [Fibonacci Series](https://en.wikipedia.org/wiki/Fibonacci_number):
+![](../res/fibonacci-python.png)
+
+Here's an equivalent Cython version of the same:
+![](../res/fibonacci-cython.png)
