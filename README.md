@@ -19,7 +19,15 @@
 <!-- end shields -->
 
 ### Table of Contents
+* [Quick Setup](#quick-setup)
 * [License](#License)
+
+### Chapters
+* [Optical Character Recognition (OCR) using Neural Networks]()
+    * [Problem Statement *at hand*]()
+
+#### Quick Setup
+
 
 #### License
 <a href="http://creativecommons.org/licenses/by-nc/4.0">
