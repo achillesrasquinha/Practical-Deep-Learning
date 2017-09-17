@@ -1,2 +1,8 @@
-# Practical-Deep-Learning
-A practical approach towards Deep Learning. Repository dedicated for an upcoming Packt course of the same name.
+<img
+    src=".github/logo-dl.png"
+    align="center"/>
+
+<div align="center">
+    <h1>Practical Deep Learning</h1>
+</div>
+

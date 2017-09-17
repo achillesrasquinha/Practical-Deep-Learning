@@ -1,2 +1,7 @@
 data
+
+# cache
+.ipynb_checkpoints
+
+# misc
 script.txt

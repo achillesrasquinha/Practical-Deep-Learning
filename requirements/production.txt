@@ -1,10 +1,21 @@
-jupyter
-numpy
-scipy
-matplotlib
-pandas
-scikit-learn
-tensorflow
-keras
-requests
-tqdm
+# Deep Learning
+jupyter         # IDE
+numpy           # Linear Algebra
+scipy           # MATLAB equivalent
+matplotlib      # Data Visualization
+pandas          # Data Analysis
+scikit-learn    # Machine Learning
+tensorflow      # ML & Deep Learning
+keras           # High-Level DL
+tflearn         # Another High-Level DL
+h5py            # HDF5 Handler
+
+# Web
+requests        # HTTP for humans
+beautifulsoup4  # Web Scraping
+
+# NLP
+nltk            # Natural Language Processing
+
+# Miscellaneous
+tqdm            # Progress Indicator
