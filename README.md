@@ -20,6 +20,7 @@
 
 ### Table of Contents
 * [Quick Setup](#quick-setup)
+* [Chapters](#chapters)
 * [License](#License)
 
 #### Quick Setup
@@ -32,6 +33,8 @@ Install necessary dependencies using [`pip`](https://pip.pypa.io/en/latest/insta
 ```console
 $ pip install -r requirements.txt
 ```
+
+Or check out our [Hitchhiker's Guides]() for a detailed setup.
 
 #### Chapters
 * [Optical Character Recognition (OCR) using Neural Networks]()
