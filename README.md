@@ -22,12 +22,20 @@
 * [Quick Setup](#quick-setup)
 * [License](#License)
 
-### Chapters
+#### Quick Setup
+[Download](https://github.com/achillesrasquinha/Practical-Deep-Learning/archive/master.zip) or Clone the repository using `git`:
+```console
+$ git clone https://github.com/achillesrasquinha/Practical-Deep-Learning.git
+```
+
+Install necessary dependencies using [`pip`](https://pip.pypa.io/en/latest/installing):
+```console
+$ pip install -r requirements.txt
+```
+
+#### Chapters
 * [Optical Character Recognition (OCR) using Neural Networks]()
     * [Problem Statement *at hand*]()
-
-#### Quick Setup
-
 
 #### License
 <a href="http://creativecommons.org/licenses/by-nc/4.0">
