@@ -37,8 +37,10 @@ $ pip install -r requirements.txt
 Or check out our [Hitchhiker's Guides]() for a detailed setup.
 
 #### Chapters
-* [Optical Character Recognition (OCR) using Neural Networks]()
-    * [Problem Statement *at hand*]()
+* [Introduction](#chapters/introduction.md)
+    * [5 Ws and H (What, Why, When, Where, Who, How) of Deep Learning](chapters/introduction.md)
+* [Optical Character Recognition (OCR) using Neural Networks](chapters/ocr-using-nn.md)
+    * [Problem Statement *at hand*](chapters/ocr-using-nn.md)
 
 #### License
 <a href="http://creativecommons.org/licenses/by-nc/4.0">
