@@ -29,7 +29,7 @@
 
 ##### High-Abstraction
 <p align="justify">
-Take <a href="https://keras.io">keras</a> for instance (A high-level Python library built on top of <a href="https://www.tensorflow.org">TensorFlow</a> and more). Here's a bare-minimum Multi-Layer Perceptron (a Deep Learning model) that attempts to learn an XOR gate.
+    Take <a href="https://keras.io">keras</a> for instance (A high-level Python library built on top of <a href="https://www.tensorflow.org">TensorFlow</a> and more). Here's a bare-minimum Multi-Layer Perceptron (a Deep Learning model) that attempts to learn an XOR gate.
 </p>
 
 ```python
@@ -53,3 +53,7 @@ array([[ 0.],
        [ 1.],
        [ 0.]], dtype=float32)
 ```
+
+<p align="justify">
+    Pretty much every Deep Learning pipeline will have the above phases. What's interesting is that Python (in this case, keras) creating the network, the math revolving around it, memory management, CPU and GPU utilization and a lot more *in 10 lines or less*. Much more complex deep learning architectures can be built too in maybe *100 lines or less*.
+</p>
