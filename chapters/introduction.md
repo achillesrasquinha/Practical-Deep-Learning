@@ -63,12 +63,45 @@ Python is slow, yet fast. Okay, let me explain.
 
 Here's a Python implementation of generating the [Fibonacci Series](https://en.wikipedia.org/wiki/Fibonacci_number):
 
-![](../res/fibonacci-python.png)
+```python
+def fibonacci(n):
+    a, b = 0, 1
+
+    for _ in range(1, n):
+        a, b = b, a + b
+    
+    return b
+```
+```python
+%timeit fibonacci(10)
+```
+```console
+797 ns ± 19.6 ns per loop (mean ± std. dev. of 7 runs, 1000000 loops each)
+```
 
 Here's an equivalent [Cython](http://cython.org) version of the same:
 
-![](../res/fibonacci-cython.png)
+```python
+%load_ext Cython
+```
+```python
+%%cython
+def fibonacci(n):
+    cdef int _
+    cdef int a = 0, b = 1
+
+    for _ in range(1, n):
+        a, b = b, a + b
+    
+    return b
+```
+```python
+%timeit fibonacci(10)
+```
+```console
+57.7 ns ± 2.68 ns per loop (mean ± std. dev. of 7 runs, 10000000 loops each)
+```
 
 <p align="justify">
-    The difference between the two implementations is about <b>711.5 nanoseconds</b>! Python in its raw form is terribly slow. But if the same is wrapped around low-level languages like C, Pythonic implementations tend to be then faster. This provides us the power of C with the goodness of Python.
+    The difference between the two implementations is about <b>739.3 nanoseconds</b>! Python in its raw form is terribly slow. But if the same is wrapped around low-level languages like C, Pythonic implementations tend to be then faster. This provides us the power of C with the goodness of Python.
 </p>
