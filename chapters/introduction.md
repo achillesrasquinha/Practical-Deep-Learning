@@ -70,5 +70,5 @@ Here's an equivalent [Cython](http://cython.org) version of the same:
 ![](../res/fibonacci-cython.png)
 
 <p align="justify">
-    The difference between the two implementations is about 711.5 nanoseconds! Python in its raw form is terribly slow. But if the same is wrapped around low-level languages like C, Pythonic implementations tend to be then faster. This provides us the power of C with the goodness of Python.
+    The difference between the two implementations is about <b>711.5 nanoseconds</b>! Python in its raw form is terribly slow. But if the same is wrapped around low-level languages like C, Pythonic implementations tend to be then faster. This provides us the power of C with the goodness of Python.
 </p>
