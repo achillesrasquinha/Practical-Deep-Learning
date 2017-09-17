@@ -26,3 +26,30 @@
         Source: <a href="https://xkcd.com/353">xkcd.com/353</a>
     </div>
 </div>
+
+##### High-Abstraction
+<p align="justify">
+Take <a href="https://keras.io">keras</a> for instance (A high-level Python library built on top of <a href="https://www.tensorflow.org">TensorFlow</a> and more). Here's a bare-minimum Multi-Layer Perceptron (a Deep Learning model) that attempts to learn an XOR gate.
+</p>
+
+```python
+>>> X = [[0, 0], [0, 1], [1, 0], [1, 1]]
+>>> y = [[0], [1], [1], [0]]
+>>> from keras.models import Sequential
+>>> from keras.layers import Dense, Activation
+>>> model = Sequential([
+    Dense(8, input_dim = 2),
+    Activation('tanh'),
+    Dense(1),
+    Activation('sigmoid')
+])
+>>> model.compile(optimizer = 'sgd', loss = 'binary_crossentropy')
+>>> model.fit(X, y, batch_size = 1, epochs = 1000)
+
+>>> import numpy as np
+>>> np.round(model.predict(X))
+array([[ 0.],
+       [ 1.],
+       [ 1.],
+       [ 0.]], dtype=float32)
+```
