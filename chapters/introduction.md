@@ -17,9 +17,9 @@
 <!-- end shields -->
 
 ### Table of Contents
-* [Why Python?](why-python)
+* [Why Python for Deep Learning?](why-python-for-deep-learning)
 
-#### Why Python?
+#### Why Python for Deep Learning?
 <div align="center">
     <img src="https://imgs.xkcd.com/comics/python.png"/>
     <div align="right">

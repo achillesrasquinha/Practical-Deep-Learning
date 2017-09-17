@@ -39,6 +39,7 @@ Or check out our [Hitchhiker's Guides]() for a detailed setup.
 #### Chapters
 * [Introduction](#chapters/introduction.md)
     * [5 Ws and H (What, Why, When, Where, Who, How) of Deep Learning](chapters/introduction.md)
+    * [Why Python for Deep Learning?](chapters/introduction.md#why-python-for-deep-learning)
 * [Optical Character Recognition (OCR) using Neural Networks](chapters/ocr-using-nn.md)
     * [Problem Statement *at hand*](chapters/ocr-using-nn.md)
 
