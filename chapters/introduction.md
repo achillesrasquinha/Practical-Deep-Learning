@@ -16,6 +16,9 @@
 </div>
 <!-- end shields -->
 
+### Table of Contents
+* [Why Python?](why-python)
+
 #### Why Python?
 <div align="center">
     <img src="https://imgs.xkcd.com/comics/python.png"/>
