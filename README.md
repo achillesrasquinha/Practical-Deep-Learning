@@ -47,6 +47,8 @@ Or check out our [Hitchhiker's Guides](https://github.com/achillesrasquinha/Prac
 * [Optical Character Recognition (OCR) using Neural Networks](chapters/ocr-using-nn.md)
     * [Problem Statement *at hand*](chapters/ocr-using-nn.md)
 
+The slides for this course can be availed [here](http://bit.do/pdl-slides).
+
 #### License
 <a href="http://creativecommons.org/licenses/by-nc/4.0">
     <img src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png">
