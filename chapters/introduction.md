@@ -62,7 +62,9 @@ array([[ 0.],
 Python is slow, yet fast. Okay, let me explain.
 
 Here's a Python implementation of generating the [Fibonacci Series](https://en.wikipedia.org/wiki/Fibonacci_number):
+
 ![](../res/fibonacci-python.png)
 
 Here's an equivalent Cython version of the same:
+
 ![](../res/fibonacci-cython.png)
