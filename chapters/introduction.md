@@ -33,21 +33,21 @@ Take <a href="https://keras.io">keras</a> for instance (A high-level Python libr
 </p>
 
 ```python
->>> X = [[0, 0], [0, 1], [1, 0], [1, 1]]
->>> y = [[0], [1], [1], [0]]
->>> from keras.models import Sequential
->>> from keras.layers import Dense, Activation
->>> model = Sequential([
-    Dense(8, input_dim = 2),
-    Activation('tanh'),
-    Dense(1),
-    Activation('sigmoid')
+>>> X = [[0, 0], [0, 1], [1, 0], [1, 1]]                            # Our knowledge/experience
+>>> y = [[0], [1], [1], [0]]                                        # Our target prediction
+>>> from keras.models import Sequential                             # keras's "Sequential" model (a sequence of layers)
+>>> from keras.layers import Dense, Activation                      # Types of layers provided by keras
+>>> model = Sequential([                                            # Modelling
+    Dense(8, input_dim = 2),                                        # Hidden-Layer with 8 neurons and incoming 2 inputs
+    Activation('tanh'),                                             # Squashing our output with a Hyperbolic Tan function
+    Dense(1),                                                       # Output-Layer with 1 neuron
+    Activation('sigmoid')                                           # Squashing our output with a Sigmoid function
 ])
->>> model.compile(optimizer = 'sgd', loss = 'binary_crossentropy')
->>> model.fit(X, y, batch_size = 1, epochs = 1000)
+>>> model.compile(optimizer = 'sgd', loss = 'binary_crossentropy')  # Compiling our network to minimize our Cross Entropy Loss function with a Gradient Descent Optimizer
+>>> model.fit(X, y, batch_size = 1, epochs = 1000)                  # Training Phase
 
 >>> import numpy as np
->>> np.round(model.predict(X))
+>>> np.round(model.predict(X))                                      # Prediction
 array([[ 0.],
        [ 1.],
        [ 1.],
