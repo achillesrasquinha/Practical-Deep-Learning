@@ -3,7 +3,7 @@
     <img src="../.github/logo-dl.png" height="256"/>
     <h1>Practical Deep Learning</h1>
     <h5>
-        Optical Character Recognition (OCR) using Neural Networks
+        Introduction
     </h5>
 </div>
 <!-- end Header -->
