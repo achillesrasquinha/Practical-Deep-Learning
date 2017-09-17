@@ -38,7 +38,7 @@ Install necessary dependencies using [`pip`](https://pip.pypa.io/en/latest/insta
 $ pip install -r requirements.txt
 ```
 
-Or check out our [Hitchhiker's Guides]() for a detailed setup.
+Or check out our [Hitchhiker's Guides](https://github.com/achillesrasquinha/Practical-Deep-Learning/wiki#setup) for a detailed setup.
 
 #### Chapters
 * [Introduction](#chapters/introduction.md)
