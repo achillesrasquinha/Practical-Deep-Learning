@@ -55,7 +55,7 @@ array([[ 0.],
 ```
 
 <p align="justify">
-    Pretty much every Deep Learning pipeline will have the above phases. What is interesting is that Python (in this case, keras) creates for you the network and the math revolving around it, performs memory management, CPU and GPU utilization and a lot more <b>in 10 lines or less!</b> Much more complex deep learning architectures can be built too in maybe <b>a 100 lines or less</b>.
+    Pretty much every Deep Learning pipeline will have the above phases (gather data, preprocess if required, build a model, train and test). What is interesting is that Python (in this case, keras) creates for you the network and the math revolving around it, performs memory management, CPU and GPU utilization and a lot more <b>in 10 lines or less!</b> Much more complex deep learning architectures can be built too in maybe <b><a href="https://github.com/fchollet/keras/blob/master/keras/applications/vgg16.py">100 lines or less</a></b>.
 </p>
 
 ##### Slow, yet Fast
