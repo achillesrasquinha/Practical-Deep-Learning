@@ -1,5 +1,5 @@
 install:
-	cat requirements/*.txt          > requirements-dev.txt
-	cat requirements/production.txt > requirements.txt
+	cat requirements/*.txt          > Pipefile-dev
+	cat requirements/production.txt > Pipefile
 
-	pip install -r requirements-dev.txt
+	pipenv install

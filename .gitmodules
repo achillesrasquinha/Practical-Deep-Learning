@@ -1,0 +1,3 @@
+[submodule "projects/digdet"]
+	path = projects/digdet
+	url = https://github.com/achillesrasquinha/digdet.git
