@@ -38,7 +38,7 @@ Install necessary dependencies using [`pip`](https://pip.pypa.io/en/latest/insta
 $ pip install -r requirements.txt
 ```
 
-Or check out our [Hitchhiker's Guides]() for a detailed setup.
+Or check out our [Hitchhiker's Guides](https://github.com/achillesrasquinha/Practical-Deep-Learning/wiki#setup) for a detailed setup.
 
 #### Chapters
 * [Introduction](#chapters/introduction.md)
@@ -46,6 +46,8 @@ Or check out our [Hitchhiker's Guides]() for a detailed setup.
     * [Why Python for Deep Learning?](chapters/introduction.md#why-python-for-deep-learning)
 * [Optical Character Recognition (OCR) using Neural Networks](chapters/ocr-using-nn.md)
     * [Problem Statement *at hand*](chapters/ocr-using-nn.md)
+
+The slides for this course can be availed [here](http://bit.do/pdl-slides).
 
 #### License
 <a href="http://creativecommons.org/licenses/by-nc/4.0">
