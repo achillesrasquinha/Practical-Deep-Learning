@@ -17,7 +17,14 @@
 <!-- end shields -->
 
 ### Table of Contents
+* [5 Ws and H (What, Why, When, Where, Who, How) of Deep Learning]()
 * [Why Python for Deep Learning?](why-python-for-deep-learning)
+
+#### 5 Ws and H (What, Why, When, Where, Who, How) of Deep Learning
+##### What
+<p align="justify">
+    In order to understand what Deep Learning is all about, let's first come to understand the term - <b>learning</b> itself. I find Tom Mitchell's articulate definition in his book - [Machine Learning]
+</p>
 
 #### Why Python for Deep Learning?
 <div align="center">
