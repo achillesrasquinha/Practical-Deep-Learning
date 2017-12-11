@@ -19,7 +19,7 @@
 <!-- end shields -->
 
 <p align="justify">
-    This repository is dedicated for an upcoming <a href="https://www.packtpub.com">Packt</a> course that promises you a no BS course for <b>Practical</b> Deep Learning in <b>Python</b> (<a href="chapters/introduction.md#why-python-for-deep-learning">Why Python?</a>). This course is structured not as a <em>"...just another beginner tutorial"</em>, but rather as a <em>"Hey! Let's build X using Ys."</em> where X are some of current-age problems and Ys are some cutting-edge methodologies (Deep Learning) and technologies. We're here to build real-world applications, not just models. Through this, we'll introduce ourselves to both theory and practice simultaneously. 
+    This repository is dedicated for an upcoming no BS course for <b>Practical</b> Deep Learning in <b>Python</b> (<a href="chapters/introduction.md#why-python-for-deep-learning">Why Python?</a>). This course is structured not as a <em>"...just another beginner tutorial"</em>, but rather as a <em>"Hey! Let's build X using Ys."</em> where X are some of current-age problems and Ys are some cutting-edge methodologies (Deep Learning) and technologies. We're here to build real-world applications, not just models. Through this, we'll introduce ourselves to both theory and practice simultaneously. 
 </p>
 
 ### Table of Contents
